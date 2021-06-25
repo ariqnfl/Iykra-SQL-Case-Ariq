@@ -1,5 +1,5 @@
 -- Number 1
-select count(title) from film where lower(title) like '%astronaut%'
+select count(title) from film where lower(description) like '%astronaut%'
 
 -- Number 2
 select count(film_id) from film where rating = 'R' and replacement_cost between 5 and 15;
